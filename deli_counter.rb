@@ -13,6 +13,8 @@ end
 
 def take_a_number(katz_deli, name)
   if katz_deli.empty?
+    index = katz_deli.length 
     katz_deli << name
+    puts "Welcome, #{name}. "
   end
 end
