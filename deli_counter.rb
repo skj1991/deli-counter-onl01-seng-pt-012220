@@ -10,5 +10,4 @@ def line(katz_deli)
     end
       current_line + customer.join(" ")
   end
-
 end
