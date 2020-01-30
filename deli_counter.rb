@@ -1,6 +1,6 @@
 def line(katz_deli)
   customer = []
-  current_line = "The line is currently:"
+  current_line = "The line is currently: "
   if katz_deli.empty?
     puts "The line is currently empty."
   else
