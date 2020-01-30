@@ -12,9 +12,8 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  if katz_deli.empty?
+  katz_deli.empty?
     index = katz_deli.length
     katz_deli << name
     puts "Welcome, #{name}. You are number #{index + 1} in line."
-  end
 end
